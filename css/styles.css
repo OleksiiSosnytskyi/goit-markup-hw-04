@@ -121,6 +121,27 @@ a {
 .contacts > .item {
   align-self: center;
 }
+
+.contacts-link::before {
+  content: '';
+  align-self: center;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+}
+.contacts-link.mail::before {
+  background-image: url(../images/envelopew.svg);
+  width: 16px;
+  height: 11px;
+}
+
+.contacts-link.phone::before {
+  background-image: url(../images/mobile.svg);
+  width: 10px;
+  height: 15px;
+}
+
 .contacts {
   display: flex;
   margin-left: auto;
@@ -131,6 +152,8 @@ a {
 
 .contacts .contacts-link {
   color: var(--primary-text-color);
+
+  display: inline-flex;
 
   font-weight: 500;
   line-height: 1.14;
@@ -160,6 +183,19 @@ a {
   text-align: center;
 
   background-color: rgba(47, 48, 58, 0.8);
+
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../images/headeroptamiz.jpg');
 }
 
 .button {
@@ -185,8 +221,30 @@ a {
 .advantages-list {
   display: flex;
 }
-.advantages-icon {
+.advantages-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--secondary-background-color);
   margin-bottom: 30px;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+}
+.advantages-icon {
   background-color: var(--secondary-background-color);
 }
 .advantages-item:not(:last-child) {
@@ -272,6 +330,12 @@ a {
   margin-right: 30px;
 }
 
+.team-item {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .social-links {
   display: flex;
 }
@@ -325,13 +389,13 @@ footer {
 }
 
 .footer-links {
-  margin-top: 57px;
+  margin-top: 72px;
   margin-bottom: 57px;
 }
 
 .logowhite {
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 
   color: var(--primary-white-color);
 
@@ -347,6 +411,8 @@ footer {
 }
 .address {
   margin-right: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .address-kiev {
@@ -371,11 +437,33 @@ footer {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .footer-social-links:hover,
 .footer-social-links:focus {
   background-color: var(--accent-color);
 }
-
+.footer-social-links {
+  align-self: center;
+  display: block;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer-social-links.instagram {
+  background-image: url(../images/logo.svg.socialnetworks/instaw.svg);
+}
+.footer-social-links.twitter {
+  background-image: url(../images/logo.svg.socialnetworks/twitterw.svg);
+}
+.footer-social-links.facebook {
+  background-image: url(../images/logo.svg.socialnetworks/facebookw.svg);
+}
+.footer-social-links.linkedin {
+  background-image: url(../images/logo.svg.socialnetworks/linkedinw.svg);
+}
 .develop {
   display: inline-block;
   margin-bottom: 21px;
