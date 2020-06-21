@@ -509,7 +509,7 @@ footer {
 .footer-social-links:focus {
   background-color: var(--accent-color);
 }
-.footer-social-links {
+/* .footer-social-links {
   align-self: center;
   display: block;
   border-radius: 50px;
@@ -530,7 +530,33 @@ footer {
 }
 .footer-social-links.linkedin {
   background-image: url(../images/linkedinw.svg);
+} */
+
+.footer-social-links {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
 }
+
+.footer-social-links .footer-icon {
+  fill: currentColor;
+
+  width: 20px;
+  height: 20px;
+}
+
+.footer-social-links:hover,
+.footer-social-links:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .develop {
   display: inline-block;
   margin-bottom: 21px;
