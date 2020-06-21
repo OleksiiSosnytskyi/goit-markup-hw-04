@@ -122,7 +122,7 @@ a {
   align-self: center;
 }
 
-.contacts-link::before {
+/* .contacts-link::before {
   content: '';
   align-self: center;
   margin-right: 10px;
@@ -140,7 +140,7 @@ a {
   background-image: url(../images/mobile.svg);
   width: 10px;
   height: 15px;
-}
+} */
 
 .contacts {
   display: flex;
@@ -154,11 +154,17 @@ a {
   color: var(--primary-text-color);
 
   display: inline-flex;
-
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.contacts-logo {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .contacts .contacts-link:hover,
 .contacts .contacts-link:focus {
   color: var(--accent-color);
