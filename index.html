@@ -34,7 +34,7 @@
         </nav>
         <ul class="contacts list">
           <li class="item">
-            <a href="" class="contacts-link"
+            <a href="mailto:info@devstudio.com" class="contacts-link"
               ><svg class="contacts-logo" width="16" height="11">
                 <use href="./images/sprite.svg#icon-envelopew"></use></svg
               >info@devstudio.com</a
@@ -52,10 +52,11 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Эффективные решения для вашего бизнеса
+          </h1>
+        </div>
         <a href="" class="button">Заказать услугу</a>
       </section>
       <!-- наши преимущества -->
@@ -128,7 +129,7 @@
                 width="370"
                 height="294"
               />
-              <p>Десктопные приложения</p>
+              <h3>Десктопные приложения</h3>
             </li>
             <li class="directions-item">
               <img
@@ -137,7 +138,7 @@
                 width="370"
                 height="294"
               />
-              <p>Мобильные приложения</p>
+              <h3>Мобильные приложения</h3>
             </li>
             <li class="directions-item">
               <img
@@ -146,7 +147,7 @@
                 width="370"
                 height="294"
               />
-              <p>Дизайнерские решения</p>
+              <h3>Дизайнерские решения</h3>
             </li>
           </ul>
         </div>
@@ -159,216 +160,224 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                src="./images/team/nikolayopti.jpg"
-                class="team-image"
-                alt="name"
-              />
-              <h3 class="team-name">Николай Кучеренко</h3>
-              <p class="position">Product Designer</p>
-              <ul class="social-links list">
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-instagramw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на twitter"
-                    ><svg class="icon">
-                      <use href="./images/sprite.svg#icon-twitterw"></use></svg
-                  ></a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-facebookw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-linkedinw"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <div class="team-image">
+                <img src="./images/team/nikolayopti.jpg" alt="name" />
+              </div>
+              <div>
+                <h3 class="team-name">Николай Кучеренко</h3>
+                <p class="position">Product Designer</p>
+                <ul class="social-links list">
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-instagramw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на twitter"
+                      ><svg class="icon">
+                        <use
+                          href="./images/sprite.svg#icon-twitterw"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-facebookw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-linkedinw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/team/olhaopti.jpg"
-                class="team-image"
-                alt="name"
-              />
-              <h3 class="team-name">Ольга Иванова</h3>
-              <p class="position">Frontend Developer</p>
-              <ul class="social-links list">
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-instagramw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на twitter"
-                    ><svg class="icon">
-                      <use href="./images/sprite.svg#icon-twitterw"></use></svg
-                  ></a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-facebookw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-linkedinw"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <div class="team-image">
+                <img src="./images/team/olhaopti.jpg" alt="name" />
+              </div>
+              <div>
+                <h3 class="team-name">Ольга Иванова</h3>
+                <p class="position">Frontend Developer</p>
+                <ul class="social-links list">
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-instagramw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на twitter"
+                      ><svg class="icon">
+                        <use
+                          href="./images/sprite.svg#icon-twitterw"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-facebookw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-linkedinw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/team/andreyopti.jpg"
-                class="team-image"
-                alt="name"
-              />
-              <h3 class="team-name">Андрей Шевченко</h3>
-              <p class="position">Marketing</p>
-              <ul class="social-links list">
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-instagramw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на twitter"
-                    ><svg class="icon">
-                      <use href="./images/sprite.svg#icon-twitterw"></use></svg
-                  ></a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-facebookw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-linkedinw"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <div class="team-image">
+                <img src="./images/team/andreyopti.jpg" alt="name" />
+              </div>
+              <div>
+                <h3 class="team-name">Андрей Шевченко</h3>
+                <p class="position">Marketing</p>
+                <ul class="social-links list">
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-instagramw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на twitter"
+                      ><svg class="icon">
+                        <use
+                          href="./images/sprite.svg#icon-twitterw"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-facebookw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-linkedinw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/team/ivanopti.jpg"
-                class="team-image"
-                alt="name"
-              />
-              <h3 class="team-name">Иван Николаев</h3>
-              <p class="position">UI Designer</p>
-              <ul class="social-links list">
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-instagramw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на twitter"
-                    ><svg class="icon">
-                      <use href="./images/sprite.svg#icon-twitterw"></use></svg
-                  ></a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-facebookw"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-links-item">
-                  <a
-                    href=""
-                    class="social-links-icon"
-                    aria-label="ссылка на instagram"
-                  >
-                    <svg class="icon">
-                      <use href="./images/sprite.svg#icon-linkedinw"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <div class="team-image">
+                <img src="./images/team/ivanopti.jpg" alt="name" />
+              </div>
+              <div>
+                <h3 class="team-name">Иван Николаев</h3>
+                <p class="position">UI Designer</p>
+                <ul class="social-links list">
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-instagramw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на twitter"
+                      ><svg class="icon">
+                        <use
+                          href="./images/sprite.svg#icon-twitterw"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-facebookw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-links-item">
+                    <a
+                      href=""
+                      class="social-links-icon"
+                      aria-label="ссылка на instagram"
+                    >
+                      <svg class="icon">
+                        <use href="./images/sprite.svg#icon-linkedinw"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -377,7 +386,7 @@
       <!-- постоянные клиенты -->
 
       <section class="clients section">
-        <div class="container section">
+        <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="clients-list list">
             <li class="clients-item">
